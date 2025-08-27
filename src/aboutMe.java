@@ -6,6 +6,6 @@ public class aboutMe {
 
         System.out.println("Меня зовут - " + fName);
         System.out.println("Моя фамилия - " + lName);
-        System.out.println("Моя проффессия - " + myWork);
+        System.out.println("Моя проффессия : " + myWork);
         }
     }
