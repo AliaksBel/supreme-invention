@@ -5,8 +5,18 @@ public class dataTypesInJava {
         int myInt = 234567876;
         long myLong = 765456789L;
         float myFloat = 3.14f;
-        double myDouble = 3.14876567898765678987656789876567898765678;
+        double myDouble = 3.148765;
         boolean myBoolean = true;
-        String myChar = "A";
+        char myChar = 'A';
+
+        System.out.println(myByte);
+        System.out.println(myShort);
+        System.out.println(myInt);
+        System.out.println(myLong);
+        System.out.println(myFloat);
+        System.out.println(myDouble);
+        System.out.println(myBoolean);
+        System.out.println(myChar);
+
         }
     }
