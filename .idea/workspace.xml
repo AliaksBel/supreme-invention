@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="488fa88c-1b04-4503-bb93-b61581546cbc" name="Changes" comment="I changed &quot;Hello and welcome&quot; to &quot;Hello World&quot;" />
+    <list default="true" id="488fa88c-1b04-4503-bb93-b61581546cbc" name="Changes" comment="Data types in Java">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataTypesInJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/keyboardInput.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,26 +17,29 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="data-types-in-java" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "AliaksBel"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;AliaksBel&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/AliaksBel/supreme-invention.git",
-    "accountId": "732d5042-63d3-4b56-8d55-6b874e1650b3"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/AliaksBel/supreme-invention.git&quot;,
+    &quot;accountId&quot;: &quot;732d5042-63d3-4b56-8d55-6b874e1650b3&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="31p89jpEtyYrNlmYhUN50p5V4A4" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -37,14 +47,41 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.aboutMe.executor": "Run",
+    "Application.dataTypesInJava.executor": "Run",
+    "Application.keyboardInput.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "1st-branch",
+    "git-widget-placeholder": "Keyboard-input",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "C:/Java Test/supreme-invention/src/Main.java"
   }
 }]]></component>
+  <component name="RunManager" selected="Application.keyboardInput">
+    <configuration name="aboutMe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aboutMe" />
+      <module name="supreme-invention" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="keyboardInput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="keyboardInput" />
+      <module name="supreme-invention" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.keyboardInput" />
+        <item itemvalue="Application.aboutMe" />
+        <item itemvalue="Application.aboutMe" />
+        <item itemvalue="Application.aboutMe" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="488fa88c-1b04-4503-bb93-b61581546cbc" name="Changes" comment="" />
@@ -69,23 +106,46 @@
       <option name="project" value="LOCAL" />
       <updated>1756209858015</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="I changed &quot;Hello and welcome&quot; to &quot;Hello World&quot;">
+      <option name="closed" value="true" />
+      <created>1756325380567</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1756325380567</updated>
+    </task>
+    <task id="LOCAL-00004" summary="This information about me">
+      <option name="closed" value="true" />
+      <created>1756325699661</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1756325699661</updated>
+    </task>
+    <task id="LOCAL-00005" summary="This information about me">
+      <option name="closed" value="true" />
+      <created>1756327110600</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1756327110600</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Data types in Java">
+      <option name="closed" value="true" />
+      <created>1756327627189</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1756327627189</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Hello and welcome - will change next time" />
     <MESSAGE value="I changed &quot;Hello and welcome&quot; to &quot;Hello World&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="I changed &quot;Hello and welcome&quot; to &quot;Hello World&quot;" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>5</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="This information about me" />
+    <MESSAGE value="Data types in Java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Data types in Java" />
   </component>
 </project>
