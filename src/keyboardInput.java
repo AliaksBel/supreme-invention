@@ -1,6 +1,8 @@
+import java.util.Scanner;
+
 public class keyboardInput {
     public static void main(String[] args)  {
-        import java.util.Scanner;
+Scanner userInputScanner = new Scanner()
 
         }
     }
