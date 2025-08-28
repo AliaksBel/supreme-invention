@@ -2,7 +2,9 @@ import java.util.Scanner;
 
 public class keyboardInput {
     public static void main(String[] args)  {
-Scanner userInputScanner = new Scanner(System.in);
+//Scanner userInputScanner = new Scanner(System.in);
+        System.out.println("");
+
         System.out.println();
 
         }
