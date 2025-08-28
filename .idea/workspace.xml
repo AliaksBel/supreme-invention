@@ -177,7 +177,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756355380591</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="I try 4 times - I am learning to enter data from the keyboard into the program.&#10;The user will enter data from the keyboard.">
+      <option name="closed" value="true" />
+      <created>1756373514348</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1756373514348</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

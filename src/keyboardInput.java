@@ -6,7 +6,10 @@ public class keyboardInput {
         System.out.println("Введите текст"); // выводит текст пользователю
         String userInput = userInputScanner.nextLine(); // пользователь вводит значение
 
-        System.out.println("Моя первая строка: \"" + userInput + "\"");
+        System.out.println("Моя первая строка: \"" + userInput + "\""); // просто вывод
+        System.out.println("Моя первая строка: \"" + userInput.toLowerCase() + "\""); //нижнйи регистр
+        System.out.println("Моя первая строка: \"" + userInput.toUpperCase() + "\""); // верхний регистр
+        System.out.println("Моя первая строка: \"" + userInput.isEmpty() + "\""); // булева, вернет false, потомучто строка заполнена
 
         }
     }
