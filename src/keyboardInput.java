@@ -16,7 +16,7 @@ public class keyboardInput {
         System.out.println("Моя первая строка: \"" + userInput.toUpperCase() + "\""); // верхний регистр
         System.out.println("Моя первая строка: \"" + userInput.isEmpty() + "\""); // булева, вернет false, потомучто строка заполнена
         System.out.println("Интересно изменить текст: \"" + userInput.charAt(5) + "\""); // выведет 5 символ, отсчет начинается с 0
-        System.out.println("Интересно изменить текст: \"" + userInput.equals(forEqualsText) + "\""); // должно быть false, потому что тексты не совпадут. Разобрался)))
+        //System.out.println("Интересно изменить текст: \"" + userInput.equals(forEqualsText) + "\""); // должно быть false, потому что тексты не совпадут. Разобрался)))
         System.out.println("Предоставьте ваши билетики: \"" + userInput.equalsIgnoreCase(forEqualsIgnoreText) + "\""); //выдает false, но пока не понимаю почему
         System.out.println("Интересно изменить текст: \"" + userInput.startsWith("Что") + "\"");
         System.out.println("Интересно изменить текст: \"" + userInput.endsWith("ая") + "\"");
