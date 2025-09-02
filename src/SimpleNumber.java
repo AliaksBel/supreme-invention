@@ -17,10 +17,11 @@ public class SimpleNumber {
             } else {
                 System.out.println("Invalid value entered. Please enter a score between 0 - 100");
             }
+        }
 
             //  if (score > 100){
             //    System.out.println("Invalid value entered. Please enter a score between 0 - 100");
-            //int score = new Scanner(System.in).nextInt();
+            int score = new Scanner(System.in).nextInt();
             if (score >= 90) {
                 System.out.println("Your grade is A!");
             } else if (score >= 80) {
@@ -36,7 +37,6 @@ public class SimpleNumber {
                 //System.out.println("Invalid value entered. Please enter a score between 0 - 100");
             } else System.out.println("Your grade is F1");
             System.out.println("Good by!");
-        }
     }
 }
 /*
