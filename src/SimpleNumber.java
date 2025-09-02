@@ -1,7 +1,32 @@
 import java.util.Scanner;
 public class SimpleNumber {
     public static void main(String[] args) {
-        compareTwoNumbers(); //Задача 2
+        //compareTwoNumbers(); //Задача 2]
+        taskOne();
+
+    }
+    public static void taskOne() {
+        System.out.println("Please enter your score: ");
+        int score = new Scanner(System.in).nextInt();
+
+        }
+        //  if (score > 100){
+        //    System.out.println("Invalid value entered. Please enter a score between 0 - 100");
+        if (score >= 90) {
+            System.out.println("Your grade is A!");
+        } else if (score >= 80) {
+            System.out.println("Your grade is B!");
+        } else if (score >= 70) {
+            System.out.println("Your grade is C!");
+        } else if (score >= 60) {
+            System.out.println("Your grade is D!");
+        } else if (score >= 50) {
+            System.out.println("Your grade is E!");
+        }
+        //else if (score < 0 ) {
+        //System.out.println("Invalid value entered. Please enter a score between 0 - 100");
+        } else System.out.println("Your grade is F1");
+        System.out.println("Good by!");
     }
     {
         //Пользователь вводит в консоли число. Если оно больше 10, выдаем в консоли сообщение
