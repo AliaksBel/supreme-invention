@@ -32,6 +32,6 @@ public class SimpleNumber {
         else if (firstNumber<secondNumber) {
             System.out.println("Второе число больше первого");
         }
-        System.out.println("Вы все сделали правильно, удачи на следующей задаче");
+        System.out.println("Вы все сделали правильно, удачи на следующей задаче");//готово))
     }
 }
