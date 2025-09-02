@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="488fa88c-1b04-4503-bb93-b61581546cbc" name="Changes" comment="I try 8 times - the first line is displayed">
-      <change afterPath="$PROJECT_DIR$/src/SimpleNumber.java" afterDir="false" />
+    <list default="true" id="488fa88c-1b04-4503-bb93-b61581546cbc" name="Changes" comment="Additional tasks&#10;Conditional operators&#10;Task1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/keyboardInput.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SimpleNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SimpleNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,7 +223,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756716782038</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Additional tasks&#10;Conditional operators&#10;Task1">
+      <option name="closed" value="true" />
+      <created>1756791691758</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1756791691758</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -240,6 +247,7 @@
     <MESSAGE value="I try 6 times - the first line is displayed" />
     <MESSAGE value="I try 7 times - the first line is displayed" />
     <MESSAGE value="I try 8 times - the first line is displayed" />
-    <option name="LAST_COMMIT_MESSAGE" value="I try 8 times - the first line is displayed" />
+    <MESSAGE value="Additional tasks&#10;Conditional operators&#10;Task1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Additional tasks&#10;Conditional operators&#10;Task1" />
   </component>
 </project>
