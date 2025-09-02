@@ -1,0 +1,103 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ProjectId\" id=\"31p89jpEtyYrNlmYhUN50p5V4A4\" />\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision f6a3c85cb19f46753eb004db105a73877fcee2d8)
++++ b/.idea/workspace.xml	(date 1756323915958)
+@@ -1,4 +1,91 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
++  <component name="ChangeListManager">
++    <list default="true" id="488fa88c-1b04-4503-bb93-b61581546cbc" name="Changes" comment="I changed &quot;Hello and welcome&quot; to &quot;Hello World&quot;" />
++    <option name="SHOW_DIALOG" value="false" />
++    <option name="HIGHLIGHT_CONFLICTS" value="true" />
++    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
++    <option name="LAST_RESOLUTION" value="IGNORE" />
++  </component>
++  <component name="Git.Settings">
++    <option name="RECENT_BRANCH_BY_REPOSITORY">
++      <map>
++        <entry key="$PROJECT_DIR$" value="main" />
++      </map>
++    </option>
++    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++  </component>
++  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
++  "lastFilter": {
++    "state": "OPEN",
++    "assignee": "AliaksBel"
++  }
++}]]></component>
++  <component name="GithubPullRequestsUISettings"><![CDATA[{
++  "selectedUrlAndAccountId": {
++    "url": "https://github.com/AliaksBel/supreme-invention.git",
++    "accountId": "732d5042-63d3-4b56-8d55-6b874e1650b3"
++  }
++}]]></component>
++  <component name="ProjectColorInfo"><![CDATA[{
++  "associatedIndex": 6
++}]]></component>
+   <component name="ProjectId" id="31p89jpEtyYrNlmYhUN50p5V4A4" />
++  <component name="ProjectViewState">
++    <option name="hideEmptyMiddlePackages" value="true" />
++    <option name="showLibraryContents" value="true" />
++  </component>
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "ModuleVcsDetector.initialDetectionPerformed": "true",
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "RunOnceActivity.git.unshallow": "true",
++    "git-widget-placeholder": "1st-branch",
++    "kotlin-language-version-configured": "true",
++    "onboarding.tips.debug.path": "C:/Java Test/supreme-invention/src/Main.java"
++  }
++}]]></component>
++  <component name="TaskManager">
++    <task active="true" id="Default" summary="Default task">
++      <changelist id="488fa88c-1b04-4503-bb93-b61581546cbc" name="Changes" comment="" />
++      <created>1756209507155</created>
++      <option name="number" value="Default" />
++      <option name="presentableId" value="Default" />
++      <updated>1756209507155</updated>
++    </task>
++    <task id="LOCAL-00001" summary="Hello and welcome - will change next time">
++      <option name="closed" value="true" />
++      <created>1756209663403</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1756209663403</updated>
++    </task>
++    <task id="LOCAL-00002" summary="I changed &quot;Hello and welcome&quot; to &quot;Hello World&quot;">
++      <option name="closed" value="true" />
++      <created>1756209858015</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1756209858015</updated>
++    </task>
++    <option name="localTasksCounter" value="3" />
++    <servers />
++  </component>
++  <component name="VcsManagerConfiguration">
++    <MESSAGE value="Hello and welcome - will change next time" />
++    <MESSAGE value="I changed &quot;Hello and welcome&quot; to &quot;Hello World&quot;" />
++    <option name="LAST_COMMIT_MESSAGE" value="I changed &quot;Hello and welcome&quot; to &quot;Hello World&quot;" />
++  </component>
++  <component name="XDebuggerManager">
++    <breakpoint-manager>
++      <breakpoints>
++        <line-breakpoint enabled="true" type="java-line">
++          <url>file://$PROJECT_DIR$/src/Main.java</url>
++          <line>5</line>
++          <option name="timeStamp" value="1" />
++        </line-breakpoint>
++      </breakpoints>
++    </breakpoint-manager>
++  </component>
+ </project>
+\ No newline at end of file
