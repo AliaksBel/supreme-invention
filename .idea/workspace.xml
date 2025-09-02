@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="488fa88c-1b04-4503-bb93-b61581546cbc" name="Changes" comment="I try 8 times - the first line is displayed">
+      <change afterPath="$PROJECT_DIR$/src/SimpleNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/keyboardInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/keyboardInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/keyboardInput.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +17,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="data-types-in-java" />
+        <entry key="$PROJECT_DIR$" value="Keyboard-input" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -46,18 +47,31 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.SimpleNumber.executor": "Run",
     "Application.aboutMe.executor": "Run",
     "Application.dataTypesInJava.executor": "Run",
     "Application.keyboardInput.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "Keyboard-input",
+    "git-widget-placeholder": "Java-cycles",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "C:/Java Test/supreme-invention/src/Main.java"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "JAVA"
+    ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.keyboardInput">
+  <component name="RunManager" selected="Application.SimpleNumber">
+    <configuration name="SimpleNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SimpleNumber" />
+      <module name="supreme-invention" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="aboutMe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="aboutMe" />
       <module name="supreme-invention" />
@@ -74,6 +88,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SimpleNumber" />
         <item itemvalue="Application.keyboardInput" />
         <item itemvalue="Application.aboutMe" />
         <item itemvalue="Application.aboutMe" />
@@ -201,7 +216,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756390235910</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="I try 8 times - the first line is displayed">
+      <option name="closed" value="true" />
+      <created>1756716782038</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1756716782038</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
