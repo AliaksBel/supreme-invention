@@ -7,16 +7,20 @@ public class SimpleNumber {
     }
 
     public static void taskOne() {
-        int score = new Scanner(System.in).nextInt();
+
         while (true) {
+            Scanner scanner = new Scanner(System.in);
             System.out.println("Please enter your score: ");
+            int score = scanner.nextInt();
             if (score > 0 && score <= 100) {
                 break;
             } else {
                 System.out.println("Invalid value entered. Please enter a score between 0 - 100");
             }
+
             //  if (score > 100){
             //    System.out.println("Invalid value entered. Please enter a score between 0 - 100");
+            //int score = new Scanner(System.in).nextInt();
             if (score >= 90) {
                 System.out.println("Your grade is A!");
             } else if (score >= 80) {

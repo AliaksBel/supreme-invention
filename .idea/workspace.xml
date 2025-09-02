@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="488fa88c-1b04-4503-bb93-b61581546cbc" name="Changes" comment="3 Additional tasks&#10;Conditional operators&#10;Task3">
+    <list default="true" id="488fa88c-1b04-4503-bb93-b61581546cbc" name="Changes" comment="1st main tasks&#10;Conditional operators&#10;    Main task 1 - attempt 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SimpleNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SimpleNumber.java" afterDir="false" />
     </list>
@@ -255,7 +255,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756797737217</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="1st main tasks&#10;Conditional operators&#10;    Main task 1 - attempt 2">
+      <option name="closed" value="true" />
+      <created>1756798847713</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1756798847713</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -274,6 +282,7 @@
     <MESSAGE value="Additional tasks&#10;Conditional operators&#10;Task1" />
     <MESSAGE value="Additional tasks&#10;Conditional operators&#10;Task2" />
     <MESSAGE value="3 Additional tasks&#10;Conditional operators&#10;Task3" />
-    <option name="LAST_COMMIT_MESSAGE" value="3 Additional tasks&#10;Conditional operators&#10;Task3" />
+    <MESSAGE value="1st main tasks&#10;Conditional operators&#10;    Main task 1 - attempt 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="1st main tasks&#10;Conditional operators&#10;    Main task 1 - attempt 2" />
   </component>
 </project>
