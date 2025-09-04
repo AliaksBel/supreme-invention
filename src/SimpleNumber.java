@@ -1,8 +1,20 @@
 import java.util.Scanner;
 public class SimpleNumber {
     public static void main (String[] args) {
-        taskOne(); //main task1
+     //   taskOne(); //main task1
+        taskTwo(); //main task2
+        new taskTwoWhile();
     }
+    public static void taskTwo() {
+        String userInput = "";
+        Scanner scanner = new Scanner(System.in);
+        while (userInput.isEmpty()) {
+            System.out.println("Please enter something: ");
+            //userInput = scanner.nextInt();
+        }
+        System.out.println("You've entered:" + userInput);
+    }
+
 
     public static void taskOne() {
             Scanner scanner = new Scanner(System.in);
@@ -13,7 +25,7 @@ public class SimpleNumber {
                 if (score < 0 || score > 100){
                     System.out.println("Invalid value entered. Please enter a score between 0 - 100");
                 }
-            }while (score < 0 || score > 100); // Повторять, пока не введут корректное число
+            } while (score < 0 || score > 100); // Повторять, пока не введут корректное число
 
 
             //int score = new Scanner(System.in).nextInt();
@@ -47,19 +59,22 @@ public class SimpleNumber {
     }
     // Пользователь вводит в консоли два числа, выводим сообщение “первое число
     //больше или меньше, чем второе” в зависимости от результата их сравнения
-        /*public static void compareTwoNumbers() {
+        public static void compareTwoNumbers() {
         System.out.println("Программа сравнивает разные числа: ");
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Введите первой число");
+        System.out.println("Введите первое число");
         int firstNumber = scanner.nextInt();
         System.out.println("Введите второе число");
         int secondNumber = scanner.nextInt();
 
-        if (firstNumber>secondNumber){
+        if (firstNumber > secondNumber){
         System.out.println("Первое число больше второго");
         }
-        else if (firstNumber<secondNumber) {
+        else if (firstNumber < secondNumber) {
             System.out.println("Второе число больше первого");
+        } else {
+        System.out.println("Числа равны");
         }
         System.out.println("Вы все сделали правильно, удачи на следующей задаче");//готово))
-    }*/
+    }
+*/
