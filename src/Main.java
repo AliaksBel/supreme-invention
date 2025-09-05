@@ -4,11 +4,16 @@ public class Main {
     public static void main(String[] args){
         Suitcase smallSuitcase = new Suitcase();
 
+        int result = sum(1, 3, 3,3,3, 3,3, 9);
+        System.out.println(result);
+
         smallSuitcase.material = "plastic";
         smallSuitcase.color = "green";
         smallSuitcase.width = 10;
         smallSuitcase.length = 15;
         smallSuitcase.height = 5;
+
+        smallSuitcase.fillSuitcase ("t-short",  300);
 
         Suitcase mediumSuitcase = new Suitcase();
 
@@ -27,7 +32,16 @@ public class Main {
         largeSuitcase.height = 45;
 
         System.out.println(smallSuitcase.getInfo());
-
-
+    }
+    public static int sum(int... a) {
+        int sum = 0;
+        for (int i : a) {
+            sum += i;
+        }
+        return sum;
+    }
+    public static int sum(int a, int b, int c){
+        return a + b + c;
     }
 }
+

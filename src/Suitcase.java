@@ -15,8 +15,9 @@ public class Suitcase {
         this.width = width;
     }*/
 
-    public void fillSuitcase() {
-
+    public void fillSuitcase(String things, double thingsVolume) {
+        content = things;
+        contentVolume = thingsVolume;
 
     }
 
@@ -25,12 +26,14 @@ public class Suitcase {
     }
 
     public String getInfo() {
-        return "info";
+        String contentInfo = getSuitcaseContentInfo();
+        String infoString = String.format("Материал чемодана: %s\nЦвет чемодана: %s\n%s", material, color, contentInfo);
+        return infoString;
 
     }
 
     public String getSuitcaseContentInfo() {
-        return "Content Info";
+        return String.format("Content type: %s\nContent volume %s", content, contentVolume);
 
     }
 
