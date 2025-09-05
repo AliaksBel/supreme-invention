@@ -9,9 +9,9 @@ public class Main {
 
         smallSuitcase.material = "plastic";
         smallSuitcase.color = "green";
-        smallSuitcase.width = 10;
-        smallSuitcase.length = 15;
-        smallSuitcase.height = 5;
+        smallSuitcase.setSuitCasseDimensions(60,25,15);
+
+
 
         smallSuitcase.fillSuitcase ("t-short",  300);
 
