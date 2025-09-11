@@ -1,8 +1,12 @@
 package suitcase.packagees;
 
-public class SmallSuitcase extends MainSuitcase {
-    public static void backpack (){
-        System.out.println("заплечный рюкзак");
-    }
+public class SmallSuitcase extends Suitcase {
+    double height = 30;
+    double length = 25;
+    double width = 15;
 
+        public String getInfo() {
+        return "маленький чемодан ";
+    }
 }
+
