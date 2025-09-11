@@ -1,7 +1,7 @@
 package suitcase.packagees;
 
 public class SmallSuitcase extends Suitcase {
-    double height = 30;
+    double height = 20;
     double length = 25;
     double width = 15;
 
