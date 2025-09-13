@@ -25,8 +25,6 @@ public abstract class Suitcase {
         return String.format("Материал: %s\nЦвет: %s\nРазмеры: %.1f - %.1f - %.1f\nОбъем: %.1f",
                 material, color, height, length, width, volume);
     }
-    public String getMaterial() { return material; }  // Геттеры
-    public String getColor() { return color; }
-    public double getVolume() { return volume; }
+
 }
 

@@ -1,4 +1,4 @@
-public class Suitcase {
+public class Suitcase12 {
     String material;
     String content;
     String color;
@@ -12,11 +12,6 @@ public class Suitcase {
     public void fillSuitcase(String things, double thingsVolume) {
         content = things;
         contentVolume = thingsVolume;
-
-    }
-
-    public void emptySuitcase() {
-
     }
 
     public String getInfo() {
@@ -24,12 +19,10 @@ public class Suitcase {
         String infoString = String.format("Материал чемодана: %s\nЦвет чемодана: %s\n%s\nОбъем в литрах %f",
                 material, color, contentInfo,volume);
         return infoString;
-
     }
 
     public String getSuitcaseContentInfo() {
         return String.format("Content type: %s\nContent volume %s", content, contentVolume);
-
     }
 
     public void setSuitCasseDimensions(double height, double length, double width){
