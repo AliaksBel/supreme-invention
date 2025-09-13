@@ -11,6 +11,6 @@ public class BigSuitcase extends Suitcase {
 
 
     public String getInfo() {
-        return "большой чемодан " + super.getInfo();
+        return "большой чемодан, " + super.getInfo();
     }
 }

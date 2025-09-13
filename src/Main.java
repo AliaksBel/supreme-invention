@@ -1,9 +1,20 @@
 import suitcase.packagees.BigSuitcase;
 import suitcase.packagees.SmallSuitcase;
 import suitcase.packagees.Suitcase;
+
+import java.io.FileInputStream;
+import java.util.Properties;
 import java.util.Scanner;
 
 public class Main {
+
+    Properties properties = new Properties();
+    private Object name;
+    FileInputStream fileInputStream = FileInputStream(name: "src/configs/config.properies");
+    properties.load(fileInputStream);
+    String username = properties.getProperty("username");
+    String password = properties.getProperty("password");
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

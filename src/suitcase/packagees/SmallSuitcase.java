@@ -11,7 +11,7 @@ public class SmallSuitcase extends Suitcase {
 
     @Override
     public String getInfo() {
-        return "маленький чемодан " + super.getInfo();
+        return "маленький чемодан, " + super.getInfo();
     }
 }
 
