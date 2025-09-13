@@ -10,7 +10,7 @@ public class taskThreeFor {
                 sum += i;
             }
             System.out.printf("The sum of all numbers from 0 to %d is %d", x, sum);
-            // недоделана
+            // недоделана не понимаю задания, требуется уточнение
 
    }
 
