@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="488fa88c-1b04-4503-bb93-b61581546cbc" name="Changes" comment="2nd main tasks&#10;    Main task 2 - attempt 1 -">
-      <change afterPath="$PROJECT_DIR$/src/taskThreeFor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tvControlPanel.java" afterDir="false" />
+    <list default="true" id="488fa88c-1b04-4503-bb93-b61581546cbc" name="Changes" comment="Пульт для телека.&#10;И третья задача частично - уточнение.">
+      <change afterPath="$PROJECT_DIR$/src/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/suitcase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +74,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.tvControlPanel">
+  <component name="RunManager" selected="Application.taskThreeFor">
     <configuration name="SimpleNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SimpleNumber" />
       <module name="supreme-invention" />
@@ -320,7 +320,23 @@
       <option name="project" value="LOCAL" />
       <updated>1757002247900</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Пульт для телека.&#10;И третья задача частично">
+      <option name="closed" value="true" />
+      <created>1757008999248</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1757008999248</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Пульт для телека.&#10;И третья задача частично - уточнение.">
+      <option name="closed" value="true" />
+      <created>1757009354750</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1757009354750</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -343,6 +359,8 @@
     <MESSAGE value="1st main tasks&#10;Conditional operators&#10;    Main task 1 - attempt 3 - исключительное обрабатывает, а вот для корректного вывода - надо 2а раза ввести число" />
     <MESSAGE value="1st main tasks&#10;Conditional operators&#10;    Main task 1 - attempt 4 - попытка уже наверно не четвертая, а гораздо большая, но вроде как самая успешная. Использовал do, if, while" />
     <MESSAGE value="2nd main tasks&#10;    Main task 2 - attempt 1 -" />
-    <option name="LAST_COMMIT_MESSAGE" value="2nd main tasks&#10;    Main task 2 - attempt 1 -" />
+    <MESSAGE value="Пульт для телека.&#10;И третья задача частично" />
+    <MESSAGE value="Пульт для телека.&#10;И третья задача частично - уточнение." />
+    <option name="LAST_COMMIT_MESSAGE" value="Пульт для телека.&#10;И третья задача частично - уточнение." />
   </component>
 </project>
