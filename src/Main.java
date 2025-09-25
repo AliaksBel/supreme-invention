@@ -1,47 +1,68 @@
+import suitcase.packagees.BigSuitcase;
+import suitcase.packagees.SmallSuitcase;
+import suitcase.packagees.Suitcase;
+
+import java.io.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Properties;
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args){
-        Suitcase smallSuitcase = new Suitcase();
 
-        int result = sum(1, 3, 3,3,3, 3,3, 9);
-        System.out.println(result);
+//    Properties properties = new Properties();
+//    private Object name;
+//    FileInputStream fileInputStream = FileInputStream(name: "C:/Java Test/supreme-inventon/src/configs/config.properies");
+//    properties.load(fileInputStream);
+//    String username = properties.getProperty("username");
+//    String password = properties.getProperty("password");
 
-        smallSuitcase.material = "plastic";
-        smallSuitcase.color = "green";
-        smallSuitcase.setSuitCasseDimensions(60,25,15);
+    public static void main(String[] args) throws IOException {
 
-
-
-        smallSuitcase.fillSuitcase ("t-short",  300);
-
-        Suitcase mediumSuitcase = new Suitcase();
-
-        mediumSuitcase.material = "plastic";
-        mediumSuitcase.color = "blue";
-        mediumSuitcase.width = 20;
-        mediumSuitcase.length = 35;
-        mediumSuitcase.height = 15;
-
-        Suitcase largeSuitcase = new Suitcase();
-
-        largeSuitcase.material = "plastic";
-        largeSuitcase.color = "Black";
-        largeSuitcase.width = 50;
-        largeSuitcase.length = 55;
-        largeSuitcase.height = 45;
-
-        System.out.println(smallSuitcase.getInfo());
-    }
-    public static int sum(int... a) {
-        int sum = 0;
-        for (int i : a) {
-            sum += i;
+        try {
+            //fileWriter();
+            readFile();
+        } catch (IOException e) {
+            //Do nothing
         }
-        return sum;
     }
-    public static int sum(int a, int b, int c){
-        return a + b + c;
-    }
-}
 
+
+//        Scanner scanner = new Scanner(System.in);
+//
+//        Suitcase[] suitcases = {
+//                new SmallSuitcase("Пластик", "зеленый"),
+//                new BigSuitcase("Ткань", "голубой")
+//        };
+//
+//        System.out.println("Выберите чемодан:");
+//        System.out.println("1 - Маленький чемодан");
+//        System.out.println("2 - Большой чемодан");
+//        System.out.print("Ваш выбор 1 или 2: ");
+//
+//        int choice = scanner.nextInt();
+//
+//        if (choice == 1) {
+//            System.out.println("\n" + suitcases[0].getInfo());
+//        } else if (choice == 2) {
+//            System.out.println("\n" + suitcases[1].getInfo());
+//        } else {
+//            System.out.println("Неверный выбор! Выберите 1 или 2");
+//        }
+//
+//    }
+//        public static void fileWriter() throws IOException{
+//            FileWriter file = new FileWriter("D:\\JavaFile.txt", true);
+//            file.write(" Запись в файл, затем буду вызывать это из файла.");
+//            file.close();
+//        }
+        public static void readFile() throws IOException{
+            Scanner scanner = new Scanner(new File("D:\\JavaFile.txt"));
+            ArrayList <String> fileContents = new ArrayList<>();
+            while (scanner.hasNextLine()) {
+                fileContents.add(scanner.nextLine());
+            }
+            scanner.close();
+            fileContents.forEach(System.out::println);
+        }
+    }
